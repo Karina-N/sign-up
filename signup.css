@@ -1,13 +1,13 @@
 body {
     background-image: url("fonas.jpg");
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
     display: inline-block;
-    width: 1100px;
+    width: 900px;
     height: 600px;
-    margin-left: calc((100% - 1100px)/2);
+    margin-left: calc((100% - 900px)/2);
     margin-top: 200px;
 
     
@@ -16,7 +16,7 @@ body {
     main {
         display: inline-block;
         background-image: url("kalnai.jpg");
-        width: 35%;
+        width: 30%;
         height: 400px;
         float: left;
         padding-bottom: 10px;
@@ -26,39 +26,62 @@ body {
     }
 
         h1 {
-            font-size: 40px;
+            font-size: 30px;
             color: white;
-            margin-left: 20px;
+            margin-left: 10px;
             padding: 20px;
         }
 
         main > p {
-            font-size: 20px;
+            font-size: 10px;
             color: white;;
             margin-left: 20px;
-            margin-top: 250px;
+            margin-top: 270px;
             text-decoration: none;
         }
 
     .lentele {
         display: inline-block;
-        background-color: lightblue;
+        background-color: white;
         width: 62%;
         height: 500px;
         margin-top: 50px;
         margin-bottom: 0;
+
         
     }
         form {
-            margin-top: 100px;
-            margin-left: 100px;
+            margin-top: 70px;
+            margin-left: 70px;
         }
 
-        input {
-            width: 90%;
-            display: block;
-            box-sizing: border-box;
-            padding: 10px;
+            label {
+                text-transform: uppercase;
+                color: grey;
+                font-size: 80%;
+                padding-top: 10px;
+            }
 
-        }
+            input {
+                width: 80%;
+                display: block;
+                box-sizing: border-box;
+                padding-top: 30px;
+                padding-bottom: 5px;
+                margin-bottom: 20px;
+                color: black;
+                border: none;
+                border-bottom: 1px solid lightgrey;   
 
+            }
+            
+            input:last-of-type {
+                color: white;
+                border-radius: 25%;
+                width: 40%;
+                font-size: 15px;
+                background-color: navy;
+                padding: 15px; 
+            }
+
+            
