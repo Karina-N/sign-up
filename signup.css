@@ -16,12 +16,13 @@ body {
     main {
         display: inline-block;
         background-image: url("kalnai.jpg");
+        background-size: auto;
         width: 35%;
-        height: 420px;
+        height: 440px;
         float: left;
         padding-bottom: 10px;
         padding-left: 30px;
-        margin-top: 80px;
+        margin-top: 100px;
 
     }
 
@@ -44,7 +45,7 @@ body {
         display: inline-block;
         background-color: white;
         width: 55%;
-        height: 500px;
+        height: 550px;
         margin-top: 50px;
 
         
