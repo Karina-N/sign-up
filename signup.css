@@ -1,36 +1,64 @@
 body {
     background-image: url("fonas.jpg");
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
     display: inline-block;
-    width: 1200px;
-    height: 800px;
-    margin-left: calc((100% - 1200px)/2);
-    background-color: lightpink;
+    width: 1100px;
+    height: 600px;
+    margin-left: calc((100% - 1100px)/2);
     margin-top: 200px;
 
     
 }
 
-main {
-    display: inline-block;
-    background-color: lightcoral;
-    width: 42%;
-    float: left;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    margin-top: 200px;
+    main {
+        display: inline-block;
+        background-image: url("kalnai.jpg");
+        width: 35%;
+        height: 400px;
+        float: left;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        margin-top: 100px;
 
-}
+    }
 
-form {
-    display: inline-block;
-    background-color: lightblue;
-    width: 55%;
-    float: right;
-    margin-top: 200px;
-    
-}
+        h1 {
+            font-size: 40px;
+            color: white;
+            margin-left: 20px;
+            padding: 20px;
+        }
+
+        main > p {
+            font-size: 20px;
+            color: white;;
+            margin-left: 20px;
+            margin-top: 250px;
+            text-decoration: none;
+        }
+
+    .lentele {
+        display: inline-block;
+        background-color: lightblue;
+        width: 62%;
+        height: 500px;
+        margin-top: 50px;
+        margin-bottom: 0;
+        
+    }
+        form {
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+
+        input {
+            width: 90%;
+            display: block;
+            box-sizing: border-box;
+            padding: 10px;
+
+        }
 
