@@ -10,13 +10,15 @@ body {
 
 main {
     display: inline-block;
-    float: left;
     background-color: lightcoral;
+    width: 50%;
+    float: left;
 }
 
 form {
     display: inline-block;
-    float: left;
     background-color: lightblue;
+    width: 50%;
+    float: right;
 }
 
