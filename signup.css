@@ -1,24 +1,36 @@
 body {
+    background-image: url("fonas.jpg");
 
 }
 
 .container {
     display: inline-block;
     width: 1200px;
+    height: 800px;
     margin-left: calc((100% - 1200px)/2);
+    background-color: lightpink;
+    margin-top: 200px;
+
+    
 }
 
 main {
     display: inline-block;
     background-color: lightcoral;
-    width: 50%;
+    width: 42%;
     float: left;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-top: 200px;
+
 }
 
 form {
     display: inline-block;
     background-color: lightblue;
-    width: 50%;
+    width: 55%;
     float: right;
+    margin-top: 200px;
+    
 }
 
