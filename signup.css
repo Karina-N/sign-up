@@ -1,0 +1,22 @@
+body {
+
+}
+
+.container {
+    display: inline-block;
+    width: 1200px;
+    margin-left: calc((100% - 1200px)/2);
+}
+
+main {
+    display: inline-block;
+    float: left;
+    background-color: lightcoral;
+}
+
+form {
+    display: inline-block;
+    float: left;
+    background-color: lightblue;
+}
+
